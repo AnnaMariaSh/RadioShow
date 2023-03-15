@@ -2,21 +2,6 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Attach: Microsoft cloud sandbox",
-            "type": "al",
-            "request": "attach",
-            "environmentType": "Sandbox",
-            "environmentName": "sandbox",
-            "breakOnError": "All",
-            "breakOnRecordWrite": "None",
-            "enableSqlInformationDebugger": true,
-            "enableLongRunningSqlStatements": true,
-            "longRunningSqlStatementsThreshold": 500,
-            "numberOfSqlStatements": 10,
-            "breakOnNext": "WebServiceClient"
-        },
-
-        {
             "name": "Your own server",
             "request": "launch",
             "type": "al",
@@ -25,7 +10,7 @@
             "serverInstance": "BC_202_DEV",
             "authentication": "Windows",
             "port": 8449,
-            "startupObjectId": 50901,
+            "startupObjectId": 50951,
             "startupObjectType": "Page",
             "breakOnError": "All",
             "launchBrowser": true,

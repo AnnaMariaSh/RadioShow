@@ -1,10 +1,12 @@
-report 50903 "AMS Radio Shows Report"
+report 50953 "AMS Radio Shows Report"
 {
-    ApplicationArea = All;
+    ApplicationArea = Sales,Basic;
     Caption = 'AMS Radio Shows Report';
     UsageCategory = ReportsAndAnalysis;
     WordLayout = 'RadioShows.docx';
-    DefaultLayout = Word;
+    RDLCLayout = 'RadioShows.rdl';
+    // DefaultLayout = Word;
+    
 
     dataset
     {
